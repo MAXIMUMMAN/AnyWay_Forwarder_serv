@@ -1,0 +1,35 @@
+[
+  {
+    "id":"0",
+    "title": "Москва",
+    "image_url": "https://images.app.goo.gl/cWEV6b93ucVXP69Q8",
+    "description": "Столица",
+    "price": 1,
+    "sea": 0,
+    "mountains": 0,
+    "culturelvl": 2,
+    "climate": 1
+  },
+  {
+    "id":"1",
+    "title": "Вена",
+    "image_url": "https://images.app.goo.gl/XaTPCMNPw2jqpJHq7",
+    "description": "Столица",
+    "price": 1,
+    "sea": 0,
+    "mountains": 1,
+    "culturelvl": 2,
+    "climate": 1
+  },
+  {
+    "id":"2",
+    "title": "Барселона",
+    "image_url": "https://images.app.goo.gl/YFrpjRUpVA755YQcA",
+    "description": "Курорт",
+    "price": 1,
+    "sea": 2,
+    "mountains": 0,
+    "culturelvl": 2,
+    "climate": 2
+  }
+]
