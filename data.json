@@ -1,35 +1,57 @@
 [
   {
-    "id":"0",
+    "id": 0,
     "title": "Москва",
+    "title_eng": "Moscow",
+    "country" : "Россия",
+    "country_code" : "12",
+    "coords" : "12",
     "image_url": "https://images.app.goo.gl/cWEV6b93ucVXP69Q8",
     "description": "Столица",
     "price": 1,
     "sea": 0,
     "mountains": 0,
-    "culturelvl": 2,
-    "climate": 1
+    "culture": 2,
+    "architecture": 1,
+    "shopping": 1,
+    "entertainment": 2,
+    "nature": 0
   },
   {
-    "id":"1",
+    "id": 1,
     "title": "Вена",
+    "title_eng": "Vienna",
+    "country" : "Австрия",
+    "country_code" : "12",
+    "coords" : "12",
     "image_url": "https://images.app.goo.gl/XaTPCMNPw2jqpJHq7",
     "description": "Столица",
     "price": 1,
     "sea": 0,
     "mountains": 1,
-    "culturelvl": 2,
-    "climate": 1
+    "culture": 2,
+    "architecture": 1,
+    "shopping": 1,
+    "entertainment": 2,
+    "nature": 0
   },
   {
-    "id":"2",
+    "id": 2,
     "title": "Барселона",
+    "title_eng": "Barcelona",
+    "country" : "Испания",
+    "country_code" : "12",
+    "coords" : "12",
     "image_url": "https://images.app.goo.gl/YFrpjRUpVA755YQcA",
     "description": "Курорт",
     "price": 1,
     "sea": 2,
     "mountains": 0,
-    "culturelvl": 2,
-    "climate": 2
+    "culture": 2,
+    "architecture": 1,
+    "shopping": 1,
+    "entertainment": 2,
+    "nature": 0
+
   }
 ]
