@@ -8,19 +8,27 @@ app = FastAPI()
 async def get_cities():
     with open('data.json') as cities:
         response = json.load(cities)
-        return response[0:len(response)]
+        return {"data": response[0:len(response)]}
 
 
-@app.get('/{num}')
+@app.get('/id')
 async def get_city(num: int):
     with open('data.json') as cities:
         response = json.load(cities)
-        return response[num]
+        return {"data": response[num]}
 
 
-@app.get('/{filt}/{f}')
-async def get_city_filtered(sea_filt : int, moun_filt : int):
+@app.get('/filters')
+async def get_city_filtered(filters):
     with open('data.json') as cities:
         res = json.load(cities)
-        res2 = list(filter(lambda x: (x["sea"] >= sea_filt) and (x["mountains"] >= moun_filt), res))
-        return res2[0:len(res2)]
+        fil = json.loads(filters)
+        res2 = list(filter(lambda x: filter_func(x, fil), res))
+        return {"data": res2[0:len(res2)]}
+
+
+def filter_func(x, filters):
+    for i in filters.keys():
+        if x["filters"][i] < filters[i]:
+            return False
+    return True
