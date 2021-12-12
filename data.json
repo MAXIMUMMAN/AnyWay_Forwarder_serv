@@ -1,62 +1,421 @@
 [
   {
-    "id": 0,
-    "title": "Москва",
-    "title_eng": "Moscow",
-    "country" : "Россия",
-    "country_code" : "12",
-    "coords" : "12",
-    "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/01/ce/da/c3/dream-of-byzantium.jpg",
-    "description": "Столица",
-    "filters": {
-      "price": 1,
-      "sea": 0,
-      "mountains": 0,
-      "culture": 2,
-      "architecture": 1,
-      "shopping": 1,
-      "entertainment": 2,
-      "nature": 0
+      "id":0,
+      "title":"Москва",
+      "country":"Россия",
+      "coords":"55.7522;37.6156",
+      "image_url":"https://www.trn-news.ru/Ru/Upload/Image/307349957_W.jpg",
+      "description":"Столица",
+      "filters":
+      {
+        "price":1,
+        "sea":0,
+        "mountains":0,
+        "culture":2,
+        "architecture":1,
+        "shopping":1,
+        "entertainment":2,
+        "nature":0
+      }
+    },
+    {
+      "id":1,
+      "title":"Вена",
+      "country":"Австрия",
+      "coords":"48.2085;16.372",
+      "image_url":"https://avatars.mds.yandex.net/get-zen_doc/1857055/pub_5dc79fccac4aba4158bda8da_5dc7a08bc7891f51f5fb587b/scale_1200",
+      "description":"Столица",
+      "filters":
+      {
+        "price":1,
+        "sea":0,
+        "mountains":1,
+        "culture":2,
+        "architecture":1,
+        "shopping":1,
+        "entertainment":2,
+        "nature":1
+      }
+    },
+    {
+      "id":2,
+      "title":"Барселона",
+      "country":"Испания",
+      "coords":"41.3888;2.15899",
+      "image_url":"https://img5.goodfon.ru/original/1280x1024/d/4c/barcelona-city-barselona-ispaniia.jpg",
+      "description":"Курорт",
+      "filters":
+      {
+        "price":1,
+        "sea":2,
+        "mountains":0,
+        "culture":2,
+        "architecture":1,
+        "shopping":1,
+        "entertainment":2,
+        "nature":1
+      }
+    },
+    {
+      "id":3,
+      "title":"Сочи",
+      "country":"Россия",
+      "coords":"43.5992;39.7257",
+      "image_url":"https://www.airpano.ru/photogallery/images_1550/262_645691.jpg",
+      "description":"Курорт",
+      "filters":
+      {
+        "price":1,
+        "sea":2,
+        "mountains":2,
+        "culture":1,
+        "architecture":2,
+        "shopping":0,
+        "entertainment":1,
+        "nature":1
+      }
+    },
+    {
+      "id":4,
+      "title":"Тоскана",
+      "country":"Италия",
+      "coords":"43.41667;11.0",
+      "image_url":"https://pressa.tv/uploads/posts/2016-07/1469604310_2.jpg",
+      "description":"Отпуск для тех, кто хочет насладиться изящным искусством и побывать на лучших пляжах Европы.",
+      "filters":
+      {
+        "price":1,
+        "sea":2,
+        "mountains":0,
+        "culture":2,
+        "architecture":1,
+        "shopping":0,
+        "entertainment":1,
+        "nature":2
+      }
+    },
+    {
+      "id":5,
+      "title":"Люксембург",
+      "country":"Люксембург",
+      "coords":"49.6117;6.13",
+      "image_url":"https://pressa.tv/uploads/posts/2016-07/1469604303_3.jpg",
+      "description":"Одно из замечательнейших мест для эксклюзивного, но очень дорогого отдыха.",
+      "filters":
+      {
+        "price":2,
+        "sea":0,
+        "mountains":0,
+        "culture":2,
+        "architecture":2,
+        "shopping":1,
+        "entertainment":1,
+        "nature":0
+      }
+    }.
+    {
+      "id":6,
+      "title":"Сингапур",
+      "country":"Сингапур",
+      "coords":"1.28967;103.85",
+      "image_url":"https://pressa.tv/uploads/posts/2016-07/1469604328_4.jpg",
+      "description":"Город-государство, который, буквально, источает атмосферу богатства и роскоши.",
+      "filters":
+      {
+        "price":2,
+        "sea":0,
+        "mountains":0,
+        "culture":1,
+        "architecture":2,
+        "shopping":1,
+        "entertainment":2,
+        "nature":0
+      }
+    },
+    {
+      "id":7,
+      "title":"Цюрих",
+      "country":"Швейцария",
+      "coords":"47.3667;8.55",
+      "image_url":"https://www.vse-strani-mira.ru/images/stories/picture2/Zurich/Zurich_007.jpg",
+      "description":"Замечательное, но дорогостоящее пребывание стоит того, чтобы посетить живописные места города.",
+      "filters":
+      {
+        "price":2,
+        "sea":0,
+        "mountains":0,
+        "culture":2,
+        "architecture":2,
+        "shopping":0,
+        "entertainment":1,
+        "nature":0
+      }
+    },
+    {
+      "id":8,
+      "title":"Осло",
+      "country":"Норвегия",
+      "coords":"59.9127;10.7461",
+      "image_url":"http://www.theculturemap.com/wp-content/uploads/2014/08/Alesund-Panoramic-view.jpg",
+      "description":"Один из самых интересных городов в мире, где можно прекрасно провести время и потратить немалые деньги.",
+      "filters":
+      {
+        "price":2,
+        "sea":1,
+        "mountains":0,
+        "culture":1,
+        "architecture":1,
+        "shopping":2,
+        "entertainment":2,
+        "nature":1
+      }
+    },
+    {
+      "id":9,
+      "title":"Токио",
+      "country":"Япония",
+      "coords":"35.6895;139.692",
+      "image_url":"https://www.efetur.com/files/2017/12/Tokyo.jpg",
+      "description":"Страна уникальной и самобытной культуры, прекрасно дополненной самыми передовыми технологиями.",
+      "filters":
+      {
+        "price":1,
+        "sea":0,
+        "mountains":2,
+        "culture":1,
+        "architecture":1,
+        "shopping":2,
+        "entertainment":2,
+        "nature":1
+      }
+    },
+    {
+      "id":10,
+      "title":"Сидней",
+      "country":"Австралия",
+      "coords":"-33.8679;151.207",
+      "image_url":"https://pressa.tv/uploads/posts/2016-07/1469604350_8.jpg",
+      "description":"Удовольствие от посещения Сиднейского оперного театра будет гораздо более длительным, чем разочарование от очень дорогого перелета в Австралию.",
+      "filters":
+      {
+        "price":1,
+        "sea":1,
+        "mountains":0,
+        "culture":0,
+        "architecture":2,
+        "shopping":0,
+        "entertainment":2,
+        "nature":1
+      }
+    },
+    {
+      "id":11,
+      "title":"Фиджи",
+      "country":"Фиджи",
+      "coords":"-18.0;178.0",
+      "image_url":"https://gulaytour.ru/wp-content/uploads/2017/08/80f1a112db7a1e72fed5bfa87785fcce.jpg",
+      "description":"Волшебное место, как будто специально создано для отдыха.",
+      "filters":
+      {
+        "price":1,
+        "sea":2,
+        "mountains":0,
+        "culture":0,
+        "architecture":0,
+        "shopping":0,
+        "entertainment":2,
+        "nature":2
+      }
+    },
+    {
+      "id":12,
+      "title":"Дубай",
+      "country":"Дубай",
+      "coords":"25.0657;55.1713",
+      "image_url":"https://pressa.tv/uploads/posts/2016-07/1469604345_11.jpg",
+      "description":"Мир неиссякаемой роскоши, небоскребов, искусственных островов, экзотических и роскошных автомобилей.",
+      "filters":
+      {
+        "price":2,
+        "sea":1,
+        "mountains":0,
+        "culture":0,
+        "architecture":2,
+        "shopping":2,
+        "entertainment":2,
+        "nature":0
+      }
+    },
+    {
+      "id":13,
+      "title":"Стокгольм",
+      "country":"Швеция",
+      "coords":"59.3326;18.0649",
+      "image_url":"https://esports-24.ru/wp-content/uploads/2021/07/major-csgo.jpg",
+      "description":"Город с уникальным дизайном, известный разноцветными зданиями оригинальной окраски.",
+      "filters":
+      {
+        "price":1,
+        "sea":0,
+        "mountains":0,
+        "culture":0,
+        "architecture":2,
+        "shopping":0,
+        "entertainment":2,
+        "nature":0
+      }
+    },
+    {
+      "id":14,
+      "title":"Тортола",
+      "country":"Британские Виргинские острова",
+      "coords":"43.7001;-79.4163",
+      "image_url":"https://archinect.imgix.net/uploads/8f/8f05720a22cd84f3644fc6a9364d6a6e.jpg?fit=crop&auto=compress%2Cformat&w=615&dpr=3",
+      "description":"v",
+      "filters":
+      {
+        "price":1,
+        "sea":2,
+        "mountains":0,
+        "culture":0,
+        "architecture":0,
+        "shopping":0,
+        "entertainment":2,
+        "nature":2
+      }
+    },  
+    {
+      "id":15,
+      "title":"Лондон",
+      "country":"Англия",
+      "coords":"51.5085;-0.12574",
+      "image_url":"https://pressa.tv/uploads/posts/2016-07/1469604297_14.jpg",
+      "description":"Отдых в Лондоне может быть очень разнообразен, здесь каждый найдет что-то интересное для себя.",
+      "filters":
+      {
+        "price":1,
+        "sea":0,
+        "mountains":0,
+        "culture":2,
+        "architecture":2,
+        "shopping":1,
+        "entertainment":2,
+        "nature":0
+      }
+    },
+    {
+      "id":16,
+      "title":"Нью-Йорк",
+      "country":"США",
+      "coords":"40.7143;-74.006",
+      "image_url":"https://static.tildacdn.com/tild3763-6363-4265-b662-626665336137/photo.jpg",
+      "description":"Уникальный и неповторимый, но один из самых дорогих городов мира.",
+      "filters":
+      {
+        "price":2,
+        "sea":1,
+        "mountains":0,
+        "culture":1,
+        "architecture":1,
+        "shopping":2,
+        "entertainment":2,
+        "nature":0
+      }
+    },  
+    {
+      "id":17,
+      "title":"Женева",
+      "country":"Швейцария",
+      "coords":"46.2022;6.14569",
+      "image_url":"https://pressa.tv/uploads/posts/2016-07/1469604304_16.jpg",
+      "description":"Один из самых зеленых городов Европы, известен большим количеством достопримечательностей.",
+      "filters":
+      {
+        "price":1,
+        "sea":0,
+        "mountains":0,
+        "culture":2,
+        "architecture":2,
+        "shopping":0,
+        "entertainment":2,
+        "nature":1
+      }
+    },  
+    {
+      "id":18,
+      "title":"Париж",
+      "country":"Франция",
+      "coords":"48.8534;2.3488",
+      "image_url":"https://pressa.tv/uploads/posts/2016-07/1469604300_17.jpg",
+      "description":"Единственный способ, действительно, познать Париж - это получить все лучшее, что может предложить город.",
+      "filters":
+      {
+        "price":1,
+        "sea":0,
+        "mountains":0,
+        "culture":2,
+        "architecture":2,
+        "shopping":1,
+        "entertainment":2,
+        "nature":0
+      }
+    },  
+    {
+      "id":19,
+      "title":"Копенгаген",
+      "country":"Дания",
+      "coords":"55.6759;12.5655",
+      "image_url":"https://allegroplus.ru/wp-content/uploads/2018/10/Kopengagen-Daniya.jpg",
+      "description":"В городе с огромным разнообразием достопримечательностей, музеев и ресторанов, заполненном большим количеством велосипедов, чем людей, вы найдете что-то особенное для себя.",
+      "filters":
+      {
+        "price":1,
+        "sea":0,
+        "mountains":0,
+        "culture":2,
+        "architecture":2,
+        "shopping":1,
+        "entertainment":2,
+        "nature":0
+      }
+    },
+    {
+      "id":20,
+      "title":"Монте-Карло",
+      "country":"Монако",
+      "coords":"43.7386627;7.4269829",
+      "image_url":"https://pressa.tv/uploads/posts/2016-07/1469604277_19.jpg",
+      "description":"Это микрогосударство обслуживает только тех, кто привык вести самый роскошный образ жизни.",
+      "filters":
+      {
+        "price":2,
+        "sea":0,
+        "mountains":0,
+        "culture":1,
+        "architecture":2,
+        "shopping":2,
+        "entertainment":2,
+        "nature":0
+      }
+    },
+    {
+      "id":20,
+      "title":"Остров Фрегат",
+      "country":"Сейшелы",
+      "coords":"-4.58528;5.9416532",
+      "image_url":"https://pressa.tv/uploads/posts/2016-07/1469604303_20.jpg",
+      "description":"Здесь можно отдохнуть от повседневной жизни и забыть обо всем, поскольку, тропическая атмосфера острова Фрегат, действительно, уникальна.",
+      "filters":
+      {
+        "price":2,
+        "sea":2,
+        "mountains":0,
+        "culture":1,
+        "architecture":0,
+        "shopping":1,
+        "entertainment":2,
+        "nature":2
+      }
     }
-  },
-  {
-    "id": 1,
-    "title": "Вена",
-    "title_eng": "Vienna",
-    "country" : "Австрия",
-    "country_code" : "12",
-    "coords" : "12",
-    "image_url": "https://www.columbista.com/data/blog/34/middle_marshrut-po-vene-na-dva-dnja-chto-nuzhno-posmotret-objazatelno-.jpg",
-    "description": "Столица",
-    "filters": {
-      "price": 1,
-      "sea": 0,
-      "mountains": 1,
-      "culture": 2,
-      "architecture": 1,
-      "shopping": 1,
-      "entertainment": 2,
-      "nature": 0
-    }
-  },
-  {
-    "id": 2,
-    "title": "Барселона",
-    "title_eng": "Barcelona",
-    "country" : "Испания",
-    "country_code" : "12",
-    "coords" : "12",
-    "image_url": "https://adijuhpalace.ru/800/600/https/globusmira.ru/wp-content/uploads/2013/12/barselona-gorod-dostoprimechatelnosti.jpg",
-    "description": "Курорт",
-    "filters": {
-      "price": 1,
-    "sea": 2,
-    "mountains": 0,
-    "culture": 2,
-    "architecture": 1,
-    "shopping": 1,
-    "entertainment": 2,
-    "nature": 0
-    }
-  }
-]
+  ]
+}
